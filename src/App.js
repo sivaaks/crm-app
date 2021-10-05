@@ -15,6 +15,7 @@ export default function App(){
     <BrowserRouter>
       <Switch>
           <Route exact path='/login' component={Login}></Route>
+          <Route path='/' component={Login}></Route>
           <Route exact path='/register' component={Register}></Route>
           <Route exact path='/forgot-password' component={Login}></Route>
           <Route exact path='/alert' component={Alert}></Route>
