@@ -5,8 +5,6 @@ import Header from './Header';
 
 export default function Dashboard(){
 
-    const 
-
     return (
         <>
         <Container>
