@@ -4,7 +4,7 @@ import {Table,Button,Container, Modal} from 'react-bootstrap';
 
 import Header from './Header';
 
-const API_URL='http://localhost:3001/users';
+const API_URL='https://siva-crm-node.herokuapp.com/users';
 
 export default function ListUsers(){
 

@@ -5,7 +5,7 @@ import {Table,Button,Modal, Form,Container} from 'react-bootstrap';
 import Header from './Header';
 import Alert from './Alerts';
 
-const API_URL='http://localhost:3001/leads';
+const API_URL='https://siva-crm-node.herokuapp.com/leads';
 
 export default function ListUsers(){
 
