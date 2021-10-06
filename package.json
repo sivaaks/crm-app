@@ -1,6 +1,5 @@
 {
   "name": "crm-app",
-  "homepage":"http://whatsdude.xyz/react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
