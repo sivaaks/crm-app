@@ -73,7 +73,7 @@ export default function ListUsers(){
     }
 
     const getContactDetails=async()=>{
-        const {data} = await axios.get(`http://localhost:3001/contacts`);
+        const {data} = await axios.get(`https://siva-crm-node.herokuapp.com/contacts`);
         setGetContacts([...data]);
     }
 
